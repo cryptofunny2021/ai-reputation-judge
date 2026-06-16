@@ -1,3 +1,20 @@
+## Step-by-Step Process
+
+User Input — User submits content (post or comment)
+Interaction Hub — Receives and processes the submission
+LLM Analysis — Sends content to AI model for quality evaluation
+AI Decision — LLM returns a quality score (1-10)
+Reward Logic — System applies appropriate rewards or penalties based on AI judgment
+State Update — Updates user's reputation and token balance
+User Feedback — User can view updated profile and history
+
+Key Benefits
+
+Fully automated and intelligent content moderation
+Uses real LLM judgment (non-deterministic)
+Transparent and fair reputation system
+Designed specifically for SocialFi platforms on GenLayer
+
 ## System Workflow
 
 ```mermaid
@@ -29,21 +46,6 @@ flowchart TD
     I --> J[User Views Results<br/>my_score & my_balance]:::user
 
 
-## Step-by-Step Process
 
-User Input — User submits content (post or comment)
-Interaction Hub — Receives and processes the submission
-LLM Analysis — Sends content to AI model for quality evaluation
-AI Decision — LLM returns a quality score (1-10)
-Reward Logic — System applies appropriate rewards or penalties based on AI judgment
-State Update — Updates user's reputation and token balance
-User Feedback — User can view updated profile and history
-
-Key Benefits
-
-Fully automated and intelligent content moderation
-Uses real LLM judgment (non-deterministic)
-Transparent and fair reputation system
-Designed specifically for SocialFi platforms on GenLayer
 
 
