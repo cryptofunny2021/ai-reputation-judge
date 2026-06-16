@@ -15,6 +15,8 @@ Uses real LLM judgment (non-deterministic)
 Transparent and fair reputation system
 Designed specifically for SocialFi platforms on GenLayer
 
+---
+
 ## System Workflow
 
 ```mermaid
