@@ -1,19 +1,19 @@
 ## Step-by-Step Process
 
-User Input — User submits content (post or comment)
-Interaction Hub — Receives and processes the submission
-LLM Analysis — Sends content to AI model for quality evaluation
-AI Decision — LLM returns a quality score (1-10)
-Reward Logic — System applies appropriate rewards or penalties based on AI judgment
-State Update — Updates user's reputation and token balance
-User Feedback — User can view updated profile and history
+1. **User Input** — User submits content (post or comment)
+2. **Interaction Hub** — Receives and processes the submission
+3. **LLM Analysis** — Sends content to AI model for quality evaluation
+4. **AI Decision** — LLM returns a quality score (1-10)
+5. **Reward Logic** — System applies appropriate rewards or penalties based on AI judgment
+6. **State Update** — Updates user's reputation and token balance
+7. **User Feedback** — User can view updated profile and history
 
-Key Benefits
+## Key Benefits
 
-Fully automated and intelligent content moderation
-Uses real LLM judgment (non-deterministic)
-Transparent and fair reputation system
-Designed specifically for SocialFi platforms on GenLayer
+- Fully automated and intelligent content moderation
+- Uses real LLM judgment (non-deterministic)
+- Transparent and fair reputation system
+- Designed specifically for SocialFi platforms on GenLayer
 
 ---
 
