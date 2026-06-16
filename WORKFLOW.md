@@ -3,7 +3,7 @@
 1. **User Input** — User submits content (post or comment)
 2. **Interaction Hub** — Receives and processes the submission
 3. **LLM Analysis** — Sends content to AI model for quality evaluation
-4. **AI Decision** — LLM returns a quality score (1-10)
+4. **AI Decision** — LLM returns a quality score (0-100)
 5. **Reward Logic** — System applies appropriate rewards or penalties based on AI judgment
 6. **State Update** — Updates user's reputation and token balance
 7. **User Feedback** — User can view updated profile and history
