@@ -33,20 +33,19 @@ flowchart TD
 
     B --> C[Send Content to LLM<br/>for Intelligent Analysis]:::ai
 
-    C --> D[LLM Evaluates Quality<br/>Returns Score 1-10]:::ai
+    C --> D[LLM Evaluates Quality<br/>Returns Score 0-100]:::ai
 
     D --> E{Content Quality}:::decision
 
-    E -->|High Quality 8-10| F[High Reward<br/>+15 Reputation<br/>+8 Tokens]:::reward
-    E -->|Medium Quality 4-7| G[Medium Reward<br/>+7 Reputation<br/>+4 Tokens]:::reward
-    E -->|Low Quality 1-3| H[Penalty<br/>-10 Reputation]:::penalty
+    E -->|High Quality 80-100| F[High Reward<br/>+15 Reputation<br/>+8 Tokens]:::reward
+    E -->|Medium Quality 40-79| G[Medium Reward<br/>+7 Reputation<br/>+4 Tokens]:::reward
+    E -->|Low Quality 0-39| H[Penalty<br/>-10 Reputation]:::penalty
 
     F --> I[Update User Profile]:::hub
     G --> I
     H --> I
 
     I --> J[User Views Results<br/>my_score & my_balance]:::user
-
 
 
 
